@@ -22,6 +22,30 @@
             <url>https://opensource.org/licenses/MIT</url>
         </license>
     </licenses>
+    <!--TODO the goal is to use README as plugin documentation, url to be validated once in jenkinci organization-->
+    <url>https://github.com/jenkinsci/manage-permission</url>
+    <developers>
+        <developer>
+            <id>amuniz</id>
+            <url>https://github.com/amuniz</url>
+        </developer>
+        <developer>
+            <id>mikecirioli</id>
+            <url>https://github.com/mikecirioli</url>
+        </developer>
+        <developer>
+            <id>escoem</id>
+            <url>https://github.com/escoem/</url>
+        </developer>
+        <developer>
+            <id>EstherAF</id>
+            <url>https://github.com/EstherAF</url>
+        </developer>
+        <developer>
+            <id>aHenryJard</id>
+            <url>https://github.com/aHenryJard</url>
+        </developer>
+    </developers>
     <!-- Assuming you want to host on @jenkinsci:
     <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
     <scm>
