@@ -1,0 +1,4 @@
+<?jelly escape-by-default='true'?>
+<div>
+    This plugin allows to enable Overall/Manage permission without the need of any JVM system property.
+</div>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.jenkins-ci.plugins</groupId>
+        <artifactId>plugin</artifactId>
+        <version>4.2</version>
+        <relativePath />
+    </parent>
+    <groupId>io.jenkins.plugins</groupId>
+    <artifactId>manage-permission</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <packaging>hpi</packaging>
+    <properties>
+        <jenkins.version>2.222.1</jenkins.version>
+        <java.level>8</java.level>
+        <useBeta>true</useBeta>
+    </properties>
+    <name>Overall/Manage permission enabler plugin </name>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+        </license>
+    </licenses>
+    <!--TODO the goal is to use README as plugin documentation, url to be validated once in jenkinci organization-->
+    <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
+    <developers>
+        <developer>
+            <id>amuniz</id>
+            <url>https://github.com/amuniz</url>
+        </developer>
+        <developer>
+            <id>mikecirioli</id>
+            <url>https://github.com/mikecirioli</url>
+        </developer>
+        <developer>
+            <id>escoem</id>
+            <url>https://github.com/escoem/</url>
+        </developer>
+        <developer>
+            <id>EstherAF</id>
+            <url>https://github.com/EstherAF</url>
+        </developer>
+        <developer>
+            <id>aHenryJard</id>
+            <url>https://github.com/aHenryJard</url>
+        </developer>
+    </developers>
+    <scm>
+        <connection>scm:git:git://github.com/jenkinsci/${project.artifactId}-plugin.git</connection>
+        <developerConnection>scm:git:git@github.com:jenkinsci/${project.artifactId}-plugin.git</developerConnection>
+        <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
+    </scm>
+</project>
