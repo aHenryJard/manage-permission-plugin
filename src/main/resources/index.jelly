@@ -1,4 +1,4 @@
 <?jelly escape-by-default='true'?>
 <div>
-    This plugins allows to enable Jenkins.MANAGE permission without needed any System property on command line.
+    This plugin allows to enable Overall/Manage permission without the need of any JVM system property.
 </div>

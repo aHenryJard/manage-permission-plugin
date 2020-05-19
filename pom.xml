@@ -16,7 +16,7 @@
         <java.level>8</java.level>
         <useBeta>true</useBeta>
     </properties>
-    <name>Manage permission plugin</name>
+    <name>Overall/Manage permission enabler plugin </name>
     <licenses>
         <license>
             <name>MIT License</name>
@@ -24,7 +24,7 @@
         </license>
     </licenses>
     <!--TODO the goal is to use README as plugin documentation, url to be validated once in jenkinci organization-->
-    <url>https://github.com/jenkinsci/manage-permission-plugin</url>
+    <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
     <developers>
         <developer>
             <id>amuniz</id>
@@ -47,24 +47,9 @@
             <url>https://github.com/aHenryJard</url>
         </developer>
     </developers>
-    <!-- Assuming you want to host on @jenkinsci:
-    <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
     <scm>
         <connection>scm:git:git://github.com/jenkinsci/${project.artifactId}-plugin.git</connection>
         <developerConnection>scm:git:git@github.com:jenkinsci/${project.artifactId}-plugin.git</developerConnection>
         <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
     </scm>
-    -->
-    <repositories>
-        <repository>
-            <id>repo.jenkins-ci.org</id>
-            <url>https://repo.jenkins-ci.org/public/</url>
-        </repository>
-    </repositories>
-    <pluginRepositories>
-        <pluginRepository>
-            <id>repo.jenkins-ci.org</id>
-            <url>https://repo.jenkins-ci.org/public/</url>
-        </pluginRepository>
-    </pluginRepositories>
 </project>
