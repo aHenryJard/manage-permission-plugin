@@ -24,7 +24,7 @@
         </license>
     </licenses>
     <!--TODO the goal is to use README as plugin documentation, url to be validated once in jenkinci organization-->
-    <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
+    <url>https://github.com/jenkinsci/manage-permission-plugin</url>
     <developers>
         <developer>
             <id>amuniz</id>
